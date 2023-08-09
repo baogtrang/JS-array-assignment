@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- USER INPUT -->
+    <div class="userInput m-5">
+        <div class="form-group">
+            <label for=""></label>
+            <input type="number" class="form-control" id="number" placeholder="Nhập vào số nguyên" />
+        </div>
+        <button onclick="addIntNumbers()" class="text-warning bg-dark" id="addIntNumbers">Add number</button>
+    </div>
+
+    <!-- ADDING ALL POSITIVE NUMBERS -->
+    <div class="positiveIntergerSum m-5 text-primary">
+        <h2>Adding all positive integers</h2>
+        <div class="text-light bg-info" id="positiveIntergerSum"></div>
+        <button class="text-warning bg-dark" onclick="positiveIntegerSum()" id="positiveIntegerSum">Sum</button>
+        <div class="result1"></div>
+    </div>
+
+    <!-- COUNTING POSITIVE NUMBERS -->
+    <div class="countPositiveIntegers m-5 text-primary">
+        <h2>Counting positive integers</h2>
+        <button onclick="countPositiveIntegers()" class="bg-dark text-warning" id="positiveIntegerCount">Count</button>
+        <div class="result2"></div>
+    </div>
+
+
+    <!-- FINDING THE SMALLEST INTEGER -->
+    <div class="findSmallest m-5 text-primary">
+        <h2>Finding the smallest integer</h2>
+        <button class="text-warning bg-dark" onclick="findSmallest()">Find</button>
+        <div class="result3 text-success display-3"></div>
+    </div>
+
+    <!-- FIND THE SMALLEST POSITIVE INTEGER -->
+    <div class="findSmallestPositiveInt m-5 text-primary">
+        <h2>Finding the smallest positive integer</h2>
+        <button onclick="findSmallestPositveInt()" class="text-warning bg-dark">Find</button>
+        <div class="result4 text-success display-3"></div>
+    </div>
+
+    <!-- FINDING THE LAST EVEN INTEGER -->
+    <div class="findLastEvenInt m-5 text-primary">
+        <h2>Finding the last even integer</h2>
+        <button onclick="findLastEvenInt()" class="text-warning bg-dark">Find</button>
+        <div class="result5 text-success display-3"></div>
+    </div>
+
+    <!-- SWAPPING 2 NUMBERS -->
+    <div class="swap2Numbers m-5">
+        <h2 class="text-primary ">Swapping 2 numbers</h2>
+        <div class="form-group">
+            <input type="number" class="form-control" id="num1"
+                placeholder="Enter the position of the first number you want to swap" />
+        </div>
+        <div class="form-group">
+            <input type="number" class="form-control" id="num2"
+                placeholder="Enter the position of the second number you want to swap" />
+        </div>
+        <button onclick="swap2Numbers()" class="bg-dark text-warning">Swap</button>
+        <div class="result6 text-success display-3"></div>
+    </div>
+
+    <!-- ARRANGING THE ARRAY IN ASCENDING ORDER -->
+    <div class="ascendingOrder m-5 text-primary">
+        <h2>Arranging the array in ascending order</h2>
+        <button class="bg-dark text-warning" onclick="ascend()">Arrange</button>
+        <div class="result7 text-success display-3"></div>
+    </div>
+
+    <!-- FINDING THE FIRST PRIME NUMBER -->
+    <div class="firstPrime m-5">
+        <h2 class="text-primary"> Finding The First Prime Number </h2>
+        <button onclick="findFirstPrime()" class="bg-dark text-warning">Find</button>
+        <div class="result8"></div>
+    </div>
+
+    <!--  COUNTING INTEGERS-->
+    <div class="countIntegers m-5 text-primary">
+        <h2>Counting integers</h2>
+        <div class="form-group">
+            <input type="number" class="form-control" id="realNumber" placeholder="Enter some real numbers" />
+        </div>
+        <button onclick="addRealNumbers()" class="text-warning bg-dark m-1">Enter</button> <br>
+        <button onclick="countIntegers()" class="text-warning bg-dark">Count</button>
+        <div class="result9 text-success display-3"></div>
+    </div>
+
+    <!-- COMPARING THE NUMBER OF POSITIVE INTEGERS AND NEGATIVE INTEGERS -->
+    <div class="m-5 text-primary">
+        <h2>Comparing number of positive and negative integers.</h2>
+        <button onclick="compare()" class="bg-dark text-warning">Compare</button>
+        <div class="result10 display-3 text-success"></div>
+    </div>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
